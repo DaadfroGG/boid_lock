@@ -21,6 +21,7 @@ make
 ./a.out
 ```
 The control schemes are as such:
+
 ```
 Left click: adds a point
 Mouse wheel up: deletes a point
