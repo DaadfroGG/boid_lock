@@ -4,13 +4,9 @@ A program that allows you to lock screen 42 using a boid simulation. Written in 
 ![Screencast_from_03-28-2023_03_35_31_PM_AdobeExpress](https://user-images.githubusercontent.com/101118957/228265623-bf24f377-48bb-4221-a5c5-bba0f557692a.gif)
 
 Installation
-To use it, clone the repository:
+To use it, clone the repository and change the path in lock.sh to be where the lock is located:
 ```
 git clone https://github.com/your_username/boid_lock.git
-```
-Once you have cloned the repository, you can customize the lock screen by changing the path in lock.sh to be where the lock is located.
-```
-make -C  /mnt/nfs/homes/dkermia/boid_lock/
 ```
 Usage
 To run boid_lock, simply execute the lock.sh script:
