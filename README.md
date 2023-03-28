@@ -6,7 +6,7 @@ A program that allows you to lock screen 42 using a boid simulation. Written in 
 Installation
 To use it, clone the repository and change the path in lock.sh to be where the lock is located:
 ```
-git clone https://github.com/your_username/boid_lock.git
+git clone https://github.com/DaadfroGG/boid_lock
 ```
 Usage
 To run boid_lock, simply execute the lock.sh script:
@@ -15,10 +15,15 @@ To run boid_lock, simply execute the lock.sh script:
 ```
 This will start the boid simulation and lock your screen.
 
-If you want to control the boids, you can make and execute the resulting a.out file:
+If you want to control the boids with the mouse, you can make and execute the resulting a.out file:
 ```
 make
 ./a.out
 ```
+The control schemes are as such:
+
+Left click: adds a point
+Mouse wheel up: deletes a point
+Right click: quits the program
 
 boid_lock was inspired by pimp_my_lock (https://github.com/jerem-ma/pimp_my_lock).
