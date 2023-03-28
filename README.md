@@ -21,9 +21,9 @@ make
 ./a.out
 ```
 The control schemes are as such:
-
+```
 Left click: adds a point
 Mouse wheel up: deletes a point
 Right click: quits the program
-
+```
 boid_lock was inspired by pimp_my_lock (https://github.com/jerem-ma/pimp_my_lock).
